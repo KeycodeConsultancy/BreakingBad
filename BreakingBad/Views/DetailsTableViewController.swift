@@ -8,8 +8,7 @@
 import UIKit
 
 class DetailsTableViewController: UITableViewController {
-    var person: Details? = nil
-    
+    var person: Details? 
     @IBOutlet weak var nicknameLabel: UILabel!
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var occupationLabel: UILabel!

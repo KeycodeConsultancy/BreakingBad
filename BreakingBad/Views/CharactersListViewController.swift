@@ -14,7 +14,7 @@ class CharactersListViewController: UIViewController {
     var filteredData:[Details] = []
     var imageURLs  = [String]()
     var isSearchBarSearch = false
-    var person: Details? = nil
+    var person: Details? 
     
     
     @IBOutlet weak var tableView: UITableView!
