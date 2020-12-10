@@ -35,7 +35,7 @@ class DetailsTableViewController: UITableViewController {
         nicknameLabel.text = "Nickname: "+person!.nickname
         
         for index in 0...((person?.occupation.count)!) - 1 {
-            occupationLabel.text?.append((person?.occupation[index])!)
+            occupationLabel.text! += "\n" + (person?.occupation[index])!
         }
         
     }
