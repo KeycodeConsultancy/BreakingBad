@@ -8,7 +8,7 @@
 import UIKit
 
 class DetailsTableViewController: UITableViewController {
-    var person: Details? 
+    var person: Details?
     @IBOutlet weak var nicknameLabel: UILabel!
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var occupationLabel: UILabel!
@@ -34,7 +34,7 @@ class DetailsTableViewController: UITableViewController {
         nicknameLabel.text = "Nickname: "+person!.nickname
         
         for index in 0...((person?.occupation.count)!) - 1 {
-            occupationLabel.text! += "\n" + (person?.occupation[index])!
+            occupationLabel.text! += "\n\u{2022}" + (person?.occupation[index])!
         }
         
     }
