@@ -14,13 +14,13 @@
 		6A96482D258229DB001EB964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A96482B258229DB001EB964 /* Main.storyboard */; };
 		6A96482F258229DC001EB964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A96482E258229DC001EB964 /* Assets.xcassets */; };
 		6A964832258229DC001EB964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A964830258229DC001EB964 /* LaunchScreen.storyboard */; };
-		6A96483D258229DC001EB964 /* BreakingBadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A96483C258229DC001EB964 /* BreakingBadTests.swift */; };
 		6A964848258229DC001EB964 /* BreakingBadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A964847258229DC001EB964 /* BreakingBadUITests.swift */; };
 		6A96486625822EC1001EB964 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A96486525822EC1001EB964 /* Details.swift */; };
 		6A96487D2582323C001EB964 /* JsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A96487C2582323C001EB964 /* JsonService.swift */; };
 		6A96489425826D64001EB964 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A96489325826D64001EB964 /* TableViewCell.swift */; };
 		6AC8ED252582813600224BD2 /* PleaseWaitImageLoading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6AC8ED242582813600224BD2 /* PleaseWaitImageLoading.gif */; };
 		6AC8ED3025828F6D00224BD2 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC8ED2F25828F6D00224BD2 /* DetailsTableViewController.swift */; };
+		6AC8ED3D2582E01700224BD2 /* BreakingBadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC8ED3C2582E01700224BD2 /* BreakingBadTests.swift */; };
 		BC70AA9BEC5C1B28F685A1B1 /* Pods_BreakingBad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CE3E0676BF37AFA8FF88EF /* Pods_BreakingBad.framework */; };
 		DD28004ED26FD1335DCA3211 /* Pods_BreakingBadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127EF314D61D599BE820504E /* Pods_BreakingBadTests.framework */; };
 /* End PBXBuildFile section */
@@ -55,7 +55,6 @@
 		6A964831258229DC001EB964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A964833258229DC001EB964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A964838258229DC001EB964 /* BreakingBadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakingBadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A96483C258229DC001EB964 /* BreakingBadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadTests.swift; sourceTree = "<group>"; };
 		6A96483E258229DC001EB964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A964843258229DC001EB964 /* BreakingBadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakingBadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A964847258229DC001EB964 /* BreakingBadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadUITests.swift; sourceTree = "<group>"; };
@@ -66,6 +65,7 @@
 		6AC8ED1825827E1500224BD2 /* BreakingBad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BreakingBad-Bridging-Header.h"; sourceTree = "<group>"; };
 		6AC8ED242582813600224BD2 /* PleaseWaitImageLoading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PleaseWaitImageLoading.gif; sourceTree = "<group>"; };
 		6AC8ED2F25828F6D00224BD2 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		6AC8ED3C2582E01700224BD2 /* BreakingBadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadTests.swift; sourceTree = "<group>"; };
 		8DB2DF14F0423124736F7526 /* Pods-BreakingBad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingBad.debug.xcconfig"; path = "Target Support Files/Pods-BreakingBad/Pods-BreakingBad.debug.xcconfig"; sourceTree = "<group>"; };
 		99537ADED8699C4CAD4CA47F /* Pods-BreakingBad-BreakingBadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingBad-BreakingBadUITests.release.xcconfig"; path = "Target Support Files/Pods-BreakingBad-BreakingBadUITests/Pods-BreakingBad-BreakingBadUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9F11147FB63509E8AA4992AF /* Pods_BreakingBad_BreakingBadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakingBad_BreakingBadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,8 +168,8 @@
 		6A96483B258229DC001EB964 /* BreakingBadTests */ = {
 			isa = PBXGroup;
 			children = (
-				6A96483C258229DC001EB964 /* BreakingBadTests.swift */,
 				6A96483E258229DC001EB964 /* Info.plist */,
+				6AC8ED3C2582E01700224BD2 /* BreakingBadTests.swift */,
 			);
 			path = BreakingBadTests;
 			sourceTree = "<group>";
@@ -285,6 +285,7 @@
 					};
 					6A964837258229DC001EB964 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 						TestTargetID = 6A964821258229DB001EB964;
 					};
 					6A964842258229DC001EB964 = {
@@ -463,7 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A96483D258229DC001EB964 /* BreakingBadTests.swift in Sources */,
+				6AC8ED3D2582E01700224BD2 /* BreakingBadTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +678,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42X84747YZ;
 				INFOPLIST_FILE = BreakingBadTests/Info.plist;
@@ -688,6 +690,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.BreakingBadTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakingBad.app/BreakingBad";
@@ -700,6 +703,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42X84747YZ;
 				INFOPLIST_FILE = BreakingBadTests/Info.plist;

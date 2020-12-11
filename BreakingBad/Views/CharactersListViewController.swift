@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class CharactersListViewController: UIViewController {
     
     @IBOutlet weak var searchBar: UISearchBar!
@@ -96,7 +97,12 @@ extension CharactersListViewController: UITableViewDataSource, UITableViewDelega
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-         person = breakingBadCharacters[indexPath.row]
+        if self.isSearchBarSearch {
+            person = self.filteredData[indexPath.row]
+        } else {
+            person = breakingBadCharacters[indexPath.row]
+        }
+        
         performSegue(withIdentifier: "detailsTableViewController", sender: self)
     }
     
