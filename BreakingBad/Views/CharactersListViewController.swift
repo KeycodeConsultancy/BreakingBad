@@ -16,12 +16,13 @@ class CharactersListViewController: UIViewController {
     var imageURLs  = [String]()
     var isSearchBarSearch = false
     var person: Details? 
-    
+    let activityIndicator = UIActivityIndicatorView(style: .medium)
     
     @IBOutlet weak var tableView: UITableView!
     
     fileprivate func getBreakingBadCharacters() {
         let jsonService = JsonService()
+       
         jsonService.getBreakingBadCharacters{ (success, response, error) in
             if success {
                 guard let details = response as? [Details] else { return }
@@ -66,6 +67,7 @@ class CharactersListViewController: UIViewController {
         showSearchBar(isHidden: true)
         getBreakingBadCharacters()
     }
+    
 
 }
 
