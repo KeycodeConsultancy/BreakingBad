@@ -14,6 +14,9 @@ class DetailsTableViewController: UITableViewController {
     @IBOutlet weak var occupationLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var image: UIImageView!
+    
+    @IBOutlet weak var appearanceLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        setup()
@@ -37,6 +40,21 @@ class DetailsTableViewController: UITableViewController {
             occupationLabel.text! += "\n\u{2022}" + (person?.occupation[index])!
         }
         
+        getAppearance()
+    }
+    
+    func getAppearance() {
+        if let apperance = person?.appearance {
+            var comma: String = ","
+            var i = 0
+            for series in apperance  {
+                i+=1
+                if i >= apperance.count {
+                    comma = ""
+                }
+                appearanceLabel.text!  += " " + String((series)) + comma
+            }
+        }
     }
     
     func hideTableViewSeparator() {

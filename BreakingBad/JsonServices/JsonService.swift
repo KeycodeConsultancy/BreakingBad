@@ -21,6 +21,7 @@ public class JsonService: NSObject {
             guard let data = data else { return }
             do {
                 let details = try JSONDecoder().decode([Details].self, from: data)
+                //print(details[6].appearance?[2])
                 DispatchQueue.main.async {
                     completion(true, details, nil)
                 }

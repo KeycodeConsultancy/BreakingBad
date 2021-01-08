@@ -23,22 +23,22 @@ class CharactersListViewController: UIViewController {
     fileprivate func getBreakingBadCharacters() {
         let jsonService = JsonService()
        
-        jsonService.getBreakingBadCharacters{ (success, response, error) in
+        jsonService.getBreakingBadCharacters{ [weak self] (success, response, error) in
             if success {
                 guard let details = response as? [Details] else { return }
-                self.breakingBadCharacters = details
+                self?.breakingBadCharacters = details
                 DispatchQueue.main.async {
-                    self.showTableView(isHidden: false)
-                    self.showSearchBar(isHidden: false)
-                    self.tableView.reloadData()
+                    self?.showTableView(isHidden: false)
+                    self?.showSearchBar(isHidden: false)
+                    self?.tableView.reloadData()
                 }
             }
             
             else if let error = error {
-                DispatchQueue.main.async { [self] in
-                    showTableView(isHidden:true)
-                    showSearchBar(isHidden: true)
-                    errorAlertView(error: error)
+                DispatchQueue.main.async { [weak self] in
+                    self?.showTableView(isHidden:true)
+                    self?.showSearchBar(isHidden: true)
+                    self?.errorAlertView(error: error)
                 }
             }
         }

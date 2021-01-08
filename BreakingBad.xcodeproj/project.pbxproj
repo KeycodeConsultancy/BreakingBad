@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		38EA4DFBE1A4EC1EFCF87DCB /* Pods_BreakingBad_BreakingBadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F11147FB63509E8AA4992AF /* Pods_BreakingBad_BreakingBadUITests.framework */; };
+		6A75FE8025A76EE4002FCE6C /* json.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A75FE7F25A76EE4002FCE6C /* json.json */; };
 		6A964826258229DB001EB964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A964825258229DB001EB964 /* AppDelegate.swift */; };
 		6A964828258229DB001EB964 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A964827258229DB001EB964 /* SceneDelegate.swift */; };
 		6A96482A258229DB001EB964 /* CharactersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A964829258229DB001EB964 /* CharactersListViewController.swift */; };
@@ -47,6 +48,7 @@
 		127EF314D61D599BE820504E /* Pods_BreakingBadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakingBadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E181831A44A8D2B45C06F0 /* Pods-BreakingBadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingBadTests.release.xcconfig"; path = "Target Support Files/Pods-BreakingBadTests/Pods-BreakingBadTests.release.xcconfig"; sourceTree = "<group>"; };
 		396327C1D7F40AF798369D27 /* Pods-BreakingBadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingBadTests.debug.xcconfig"; path = "Target Support Files/Pods-BreakingBadTests/Pods-BreakingBadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A75FE7F25A76EE4002FCE6C /* json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json.json; sourceTree = "<group>"; };
 		6A964822258229DB001EB964 /* BreakingBad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingBad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A964825258229DB001EB964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A964827258229DB001EB964 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		6A964819258229DB001EB964 = {
 			isa = PBXGroup;
 			children = (
+				6A75FE7F25A76EE4002FCE6C /* json.json */,
 				6AC8ED242582813600224BD2 /* PleaseWaitImageLoading.gif */,
 				6A964827258229DB001EB964 /* SceneDelegate.swift */,
 				6A964825258229DB001EB964 /* AppDelegate.swift */,
@@ -325,6 +328,7 @@
 				6AC8ED252582813600224BD2 /* PleaseWaitImageLoading.gif in Resources */,
 				6A964832258229DC001EB964 /* LaunchScreen.storyboard in Resources */,
 				6A96482F258229DC001EB964 /* Assets.xcassets in Resources */,
+				6A75FE8025A76EE4002FCE6C /* json.json in Resources */,
 				6A96482D258229DB001EB964 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

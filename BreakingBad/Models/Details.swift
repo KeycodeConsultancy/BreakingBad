@@ -6,17 +6,23 @@
 //
 
 import Foundation
-
-
 struct Details: Codable {
     var char_id: Int
-    let img: String
-    let name: String
+    var img: String
+    var name: String
     var occupation: [String]
-    let status: String
-    let nickname: String
-    //let appearance: [Int] // does not work
+    var status: String
+    var nickname: String
+    var appearance: [Int]?
 }
+
+
+
+
+
+
+
+
 
 
 

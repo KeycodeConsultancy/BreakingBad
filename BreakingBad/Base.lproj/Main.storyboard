@@ -161,6 +161,12 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Appearance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cuq-KL-NH5">
+                                                    <rect key="frame" x="20" y="256" width="374" height="30"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="1Ex-Pd-lty" firstAttribute="trailing" secondItem="mYT-wG-NVb" secondAttribute="trailingMargin" id="3wi-4R-iTO"/>
@@ -168,8 +174,10 @@
                                                 <constraint firstItem="Dpb-W2-KtY" firstAttribute="leading" secondItem="mYT-wG-NVb" secondAttribute="leadingMargin" id="DBO-57-J8o"/>
                                                 <constraint firstItem="RhH-dW-xru" firstAttribute="centerX" secondItem="mYT-wG-NVb" secondAttribute="centerX" id="Djy-ac-PqQ"/>
                                                 <constraint firstItem="Dpb-W2-KtY" firstAttribute="top" secondItem="Kdq-Te-GFA" secondAttribute="bottom" constant="3" id="O3L-vP-Wxs"/>
+                                                <constraint firstItem="Cuq-KL-NH5" firstAttribute="top" secondItem="Kdq-Te-GFA" secondAttribute="bottom" constant="32.5" id="QFS-Gw-aT2"/>
                                                 <constraint firstItem="nrL-6M-4cG" firstAttribute="trailing" secondItem="mYT-wG-NVb" secondAttribute="trailingMargin" id="TTu-XH-YbY"/>
                                                 <constraint firstItem="1Ex-Pd-lty" firstAttribute="leading" secondItem="mYT-wG-NVb" secondAttribute="leadingMargin" id="gUB-sr-5i4"/>
+                                                <constraint firstItem="Cuq-KL-NH5" firstAttribute="trailing" secondItem="mYT-wG-NVb" secondAttribute="trailingMargin" id="hAg-TN-7te"/>
                                                 <constraint firstItem="nrL-6M-4cG" firstAttribute="leading" secondItem="mYT-wG-NVb" secondAttribute="leadingMargin" id="jfV-m6-Qci"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="nrL-6M-4cG" secondAttribute="bottom" constant="192" id="jqW-Me-Hnx"/>
                                                 <constraint firstItem="Kdq-Te-GFA" firstAttribute="trailing" secondItem="mYT-wG-NVb" secondAttribute="trailingMargin" id="lkl-1v-3dJ"/>
@@ -178,6 +186,7 @@
                                                 <constraint firstItem="nrL-6M-4cG" firstAttribute="top" secondItem="RhH-dW-xru" secondAttribute="bottom" constant="-31.5" id="t26-CU-yqx"/>
                                                 <constraint firstItem="Kdq-Te-GFA" firstAttribute="leading" secondItem="mYT-wG-NVb" secondAttribute="leadingMargin" id="uIT-Vn-TSH"/>
                                                 <constraint firstItem="RhH-dW-xru" firstAttribute="centerY" secondItem="mYT-wG-NVb" secondAttribute="centerY" constant="-141" id="vCs-yR-iud"/>
+                                                <constraint firstItem="Cuq-KL-NH5" firstAttribute="leading" secondItem="mYT-wG-NVb" secondAttribute="leadingMargin" id="yJL-Jx-T6a"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -191,6 +200,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Details" id="UE3-Qj-LCO"/>
                     <connections>
+                        <outlet property="appearanceLabel" destination="Cuq-KL-NH5" id="PsZ-tL-pJv"/>
                         <outlet property="image" destination="RhH-dW-xru" id="pc9-8R-3be"/>
                         <outlet property="nameLabel" destination="nrL-6M-4cG" id="VKg-eh-CxU"/>
                         <outlet property="nicknameLabel" destination="Dpb-W2-KtY" id="bhk-T3-f19"/>
